@@ -1,7 +1,17 @@
 #include <stdio.h>
-int main(void)
-{
-printf("with proper grammar, but the outcome is a piece of art,"\n);
-return (0);
-}
 
+/**
+ * main - Print quote
+ *
+ * return 0 success
+ *
+ * Description - proper grammar, but the outcome is a piece of art,
+ *
+ */
+
+int main(void)
+
+{
+	printf("with proper grammar, but the outcome is a piece of art,"\n);
+	return (0);
+}
