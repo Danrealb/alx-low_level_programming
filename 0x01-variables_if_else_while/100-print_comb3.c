@@ -1,39 +1,38 @@
 #include <stdio.h>
+/*
+ * File: 100-print_comb3.c
+ * Auth: Brennan D Baraban
+ */
+
+#include <stdio.h>
 
 /**
- * main - Writes 001 - 999
- * @void: Empty parameter list for main.
+ * main - Prints all possible combinations of two different digits,
+ *        in ascending order, separated by a comma followed by a space.
  *
- * Description: Writes all unique combinations
- * of 3 numbers
- *
- * Return: 0 for success
-*/
+ * Return: Always 0.
+ */
 int main(void)
 {
-	int i, j, k;
+	int digit1, digit2;
 
-	for (i = '0'; i <= '9'; i++)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		for (j = '0'; j <= '9'; j++)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			for (k = '0'; k <= '9'; k++)
-			{
-				if ((i < j) & (j < k) & (k <= '9'))
-				{
-					putchar(i);
-					putchar(j);
-					putchar(k);
-
-					if ((i + j + k) < 168)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-			}
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
+			
+			if (digit1 == 8 && digit2 == 9)
+				
+				continue;
+			
+			putchar(',');
+			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }
