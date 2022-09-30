@@ -5,7 +5,7 @@
  * main - prints name of file
  *@argc: number of arguments
  * @argv: arguments entered
- * Return - 0 always
+ * Return - zero
  *
  */
 
