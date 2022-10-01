@@ -2,11 +2,13 @@
 #include <stdlib.h>
 
 /**
- * main - print all arguments
- * @argc: number of argument
- * @argv: argument entered
- *
- */
+ * main - print number of arguments entered
+ * @argc: number of arguments
+ * @argv: arguments entered
+ * Description: print number of arguments
+ * Return: return zero
+ **/
+
 
 int main(int argc, char *argv[])
 {
