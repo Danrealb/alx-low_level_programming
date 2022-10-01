@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * main - print all arguments include the first one
- * @agrc - number of argument
- * @argv - argument entered
- *
- * Description: print all argument enterd
+ * main - print all arguemnts
+ * @argc: number of arguments
+ * @argv: arguments entered
+ * Description: print all arguments including file name
  * Return: zero
- */
+ **/
+
 int main(int argc, char *argv[])
 {
 	int i;

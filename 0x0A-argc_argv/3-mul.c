@@ -2,13 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main: sum all the given number
- * @argc: number argument
- * @argv: argument entered
- *
- * Description: sum and give total
+ * main - multiply two numbers
+ * @argc: number of arguments
+ * @argv: arguments entered
+ * Description: return product
  * Return: zero
- */
+ **/
 
 int main(int argc, char *argv[])
 {
